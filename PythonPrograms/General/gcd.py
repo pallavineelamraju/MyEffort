@@ -5,9 +5,10 @@ def gcd(m,n):
         return(n)
     else:
         return(gcd(n,(m%n)))
-        
-num1 = int(input("Give one the GCD numbers:"))
-num2 = int(input("Give the second GCD number:"))
-k = gcd(num1,num2)
-print('The gcd is:')
-print(k)
+ans = 'yes'
+while(ans != 'no'):      
+    num1 = int(input("Give one the GCD numbers:"))
+    num2 = int(input("Give the second GCD number:"))
+    k = gcd(num1,num2)
+    print('The gcd is:',k)
+    ans = input('Do you want to give more inputs?')
