@@ -2,7 +2,6 @@ package module2;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.Scanner;
 public class TwoDimArrAdd {
 
 	public static void main(String[] args) {
