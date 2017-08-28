@@ -24,12 +24,6 @@ public class TwoDimArrAdd {
 	}
 	
 	System.out.println();
-	
-	/*System.out.print("+");
-	System.out.print("Number of rows in second matrix:");
-	int rows2=s.nextInt();
-	System.out.print("Number of cols in second matrix:");
-	int cols2=s.nextInt();*/
 	System.out.print("Enter the row and column numbers for second matrix:");
 	int b[][] = new int[rows][cols];
 	System.out.println();
