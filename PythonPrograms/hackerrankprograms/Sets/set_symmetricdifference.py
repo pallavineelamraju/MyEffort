@@ -1,0 +1,6 @@
+n=int(input())
+eng=set(map(int,input().strip().split()))
+b=int(input())
+french=set(map(int,input().strip().split()))
+num=eng.symmetric_difference(french)
+print(len(num))
